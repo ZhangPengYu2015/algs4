@@ -143,7 +143,7 @@ public class Selection {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
+        String[] a = {"1", "3", "2"};
         Selection.sort(a);
         show(a);
     }

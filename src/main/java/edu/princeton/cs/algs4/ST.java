@@ -11,9 +11,7 @@
 
 package edu.princeton.cs.algs4;
 
-import java.util.Iterator;
-import java.util.NoSuchElementException;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  *  The {@code ST} class represents an ordered symbol table of generic
@@ -220,6 +218,7 @@ public class ST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
+
         ST<String, Integer> st = new ST<String, Integer>();
         for (int i = 0; !StdIn.isEmpty(); i++) {
             String key = StdIn.readString();

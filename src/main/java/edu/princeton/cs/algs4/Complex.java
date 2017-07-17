@@ -243,7 +243,6 @@ public class Complex {
     public static void main(String[] args) {
         Complex a = new Complex(5.0, 6.0);
         Complex b = new Complex(-3.0, 4.0);
-
         StdOut.println("a            = " + a);
         StdOut.println("b            = " + b);
         StdOut.println("Re(a)        = " + a.re());

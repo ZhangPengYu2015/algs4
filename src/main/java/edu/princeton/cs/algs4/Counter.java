@@ -20,6 +20,8 @@
 
 package edu.princeton.cs.algs4;
 
+import java.util.Timer;
+
 /**
  *  The {@code Counter} class is a mutable data type to encapsulate a counter.
  *  <p>
@@ -95,8 +97,8 @@ public class Counter implements Comparable<Counter> {
      * @param args the command-line arguments
      */
     public static void main(String[] args) { 
-        int n = Integer.parseInt(args[0]);
-        int trials = Integer.parseInt(args[1]);
+        int n = 100000;
+        int trials = 100;
 
         // create n counters
         Counter[] hits = new Counter[n];

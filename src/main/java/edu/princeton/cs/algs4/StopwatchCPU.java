@@ -65,7 +65,7 @@ public class StopwatchCPU {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
+        int n = 1000000;
 
         // sum of square roots of integers from 1 to n using Math.sqrt(x).
         StopwatchCPU timer1 = new StopwatchCPU();
